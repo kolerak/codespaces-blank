@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { collection, addDoc, getDocs, query, orderBy, limit, startAfter, doc, updateDoc, getDoc } from "firebase/firestore";
+// @ts-ignore
 import { db } from './firebase'; // Import the Firestore instance
 import { Button } from './components/ui/button';
 import { Badge } from "@/components/ui/badge";
